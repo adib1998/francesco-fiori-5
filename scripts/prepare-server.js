@@ -35,7 +35,8 @@ const serverPackage = {
     "express": "^4.19.2",
     "cors": "^2.8.5",
     "stripe": "^14.21.0",
-    "@supabase/supabase-js": "^2.39.3"
+    "@supabase/supabase-js": "^2.39.3",
+    "dotenv": "^16.4.5"
   }
 };
 
