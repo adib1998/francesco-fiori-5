@@ -1,0 +1,15 @@
+{
+  "name": "francesco-fiori-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "stripe-server.js",
+  "scripts": {
+    "start": "node stripe-server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "stripe": "^14.21.0",
+    "@supabase/supabase-js": "^2.39.3"
+  }
+}
