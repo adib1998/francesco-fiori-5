@@ -1,4 +1,4 @@
-import{r as u,R as ue}from"./vendor-_Xm0Mw1R.js";/**
+import{r as u,R as ue}from"./vendor-B6D-3294.js";/**
  * @remix-run/router v1.23.0
  *
  * Copyright (c) Remix Software Inc.
