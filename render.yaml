@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: francesco-fiori-piante
+    env: node
+    plan: free
+    buildCommand: npm run render-build
+    startCommand: npm run render-start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        generateValue: true
+      - key: VITE_SUPABASE_URL
+        value: https://despodpgvkszyexvcbft.supabase.co
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
